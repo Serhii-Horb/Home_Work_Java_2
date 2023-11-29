@@ -1,0 +1,1 @@
+public class HomeWork_2 {    public static void main(String[] args) {        /* Дано трехзначное число. Вывести на экран все цифры этого числа.            Пример: 345            Вывод в консоль: Число 345 -> 3, 4, 5         */        int number = 345;        System.out.println(number / 100 + ", " + (number / 10 - 30) + ", " + (number % 10));    }}
